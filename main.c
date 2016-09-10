@@ -116,7 +116,7 @@ int main()
             j=0;inser=0;del=0;sub=0;
             for(i=0;i<strlen(sequence)-2;i++)
                {   randomValue=(rand()*1.0) / RAND_MAX;
-                    //printf("randomValue: %f\n",randomValue);
+                  //  printf("randomValue: %f \n\n",randomValue);
                     //printf("cpt: %d ",cpt++);
                     if((randomValue>=0.0) && (randomValue<=0.075))
                     {
